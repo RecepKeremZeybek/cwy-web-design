@@ -42,7 +42,7 @@ header .menu a.active{
 
 /* banner */
 
-/* .banner{
+.banner{
     height: 360px;
     width: 100%;
     background-image: url("./img/showcase.jpg");
@@ -61,7 +61,7 @@ header .menu a.active{
 .banner p{
     font-size: 1.1rem;
 
-} */
+}
 
 /* subscribe */
 
