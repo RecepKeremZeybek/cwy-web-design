@@ -1,93 +1,189 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:'Roboto', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
-body,html{
-    width: 100%;
-    height: 100%;
+body,
+html {
+  width: 100%;
+  height: 100%;
 }
 
 /* home page started */
 
-header{
-    background-color: #35424a;
-    height: 5rem;
-    border-bottom: 3px solid #a9508b;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:0 1rem;
+header {
+  background-color: #35424a;
+  height: 5rem;
+  border-bottom: 3px solid #a9508b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
 }
-header .logo h1{
-    font-size: 1.7rem;
-    color:#a9508b;
-    font-weight: bold;
+header .logo h1 {
+  font-size: 1.7rem;
+  color: #a9508b;
+  font-weight: bold;
 }
-header .logo h1 span{
-   color: white;
+header .logo h1 span {
+  color: white;
 }
-header .menu a{
-text-decoration: none;
-font-size: 1rem;
-padding: 0 1rem;
-font-weight: 400;
-color: white;
+header .menu a {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0 1rem;
+  font-weight: 400;
+  color: white;
 }
-header .menu a.active{
-    color:#a9508b;
-    font-weight: 800;
+header .menu a.active {
+  color: #a9508b;
+  font-weight: 800;
 }
 
 /* banner */
 
-.banner{
-    height: 360px;
-    width: 100%;
-    background-image: url("./img/showcase.jpg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
+.banner {
+  height: 360px;
+  width: 100%;
+  background-image: url("./img/showcase.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
 }
-.banner h2{
-    font-size: 2.2rem;
-    padding: 1rem;
+.banner h2 {
+  font-size: 2.2rem;
+  padding: 1rem;
 }
-.banner p{
-    font-size: 1.1rem;
-
+.banner p {
+  font-size: 1.1rem;
 }
 
 /* subscribe */
 
-.subscribe{
-    background-color: #35424a;
-    height: 5.75rem;
-    font-size: 1.25rem;
+.subscribe {
+  background-color: #35424a;
+  height: 5.75rem;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  color: white;
+  text-transform: capitalize;
+}
+.subscribe .right .input {
+  height: 2.2rem;
+  width: 240px;
+}
+.subscribe .right .button {
+  height: 2.2rem;
+  width: 90px;
+  background-color: #e8491d;
+  color: white;
+  border-style: none;
+  outline: none;
+  border-radius: 1px;
+}
+
+/* content */
+
+.content {
+  height: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.content .services img {
+  width: 75px;
+}
+.content .services h3 {
+  padding: 1rem;
+}
+.content .services p {
+  font-size: 0.9rem;
+}
+
+footer {
+  height: 124px;
+  background-color: #35424a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+footer p{
+    padding-bottom: 10px;
+    
+}
+
+/* home page end */
+
+
+.about-content{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1rem;
-    color: white;
-    text-transform: capitalize;
+    padding: 2rem;
+    font-weight: 300;
 }
-.subscribe .right .input{
-    height: 2.2rem;
-    width: 240px;
+.about-content .side-left{
+    padding-right: 3rem;
 }
-.subscribe .right .button{
-    height: 2.2rem;
-    width: 90px;
-    background-color:#e8491d;
+.about-content h4{
+    /* padding-bottom: 1rem; */
+    margin-bottom: 1rem;
+}
+.about-content p{
+line-height: 1.5rem;
+padding-bottom: 1rem;
+
+}
+.about-content .set{
+    background-color: #35424a;
+    padding: 1rem;
     color: white;
-    border-style:none;
+}
+/* footer */
+
+.about-footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+/* about finish */
+/* services start */
+
+.set label{
+    display: block;
+
+}
+.set input,textarea{
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.set button{
+    background-color: #e8491d;
+    padding: .6rem .8rem;
+    color: white;
+    cursor: pointer;
     outline: none;
-    border-radius: 1px;
+    border: none;
+
 }
-
-
+.side-left .lessons{
+    background-color: #e6e6e6; 
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 5px 0;
+}
+.content-services{
+    height: 100%;
+}
